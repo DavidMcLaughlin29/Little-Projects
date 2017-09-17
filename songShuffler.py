@@ -1,4 +1,4 @@
-# This little program takes some songs that the user inputs and
+# This program takes some songs that the user inputs and
 # shuffles them, then writes them to a text file. So for example,
 # if you're in a band and change setlists between shows, you could use
 # this to quickly make a new one.
