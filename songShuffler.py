@@ -5,7 +5,7 @@
 
 from random import shuffle
 
-songs = input("Enter your songs, separated by a command and a space: ")
+songs = input("Enter your songs, separated by a comma and a space: ")
 
 list_of_songs = songs.split(', ')
 
