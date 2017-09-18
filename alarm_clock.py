@@ -1,3 +1,7 @@
+# This is an alarm clock program I wrote for practice. It takes the user input, e.g. “August 10, 2017 0800”, 
+# converts it to a datetime object, subtracts from it the current_time object, casts that to total_seconds, 
+# sleeps for that amount, then opens a youtube link. Run in terminal.
+
 from datetime import datetime
 import time, webbrowser
 
