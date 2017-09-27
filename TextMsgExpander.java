@@ -26,7 +26,7 @@ public class TextMsgExpander {
       map.put("TMI", "too much information");
       map.put("IMHO", "in my humble opinion");
       
-      // Loop through user input string. Replace keys with values.
+      // Loop through table. If input string has key, replace keys with values.
       
       for (Map.Entry<String, String> entry : map.entrySet()) {
          if (userInput.contains(entry.getKey())) {
