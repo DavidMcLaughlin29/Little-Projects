@@ -1,3 +1,8 @@
+# Write a function that determines is the
+# string is balanced. For example, "[]{}()"
+# is balanced, "({]}[})" is not balanced.
+
+
 def braces(values):
     stack = []
     pushChars = "({["
